@@ -1,6 +1,47 @@
-main {
-  background-color: aliceblue;
+body {
+	display: flex;
+	flex-direction: row;
+	background-color: aliceblue;
+	color: darkslategray;
 }
+
 header {
-  font-weight: bold;
+	font-weight: bold;
+}
+
+nav {
+	background-color: lightslategray;
+	display: flex;
+	flex-direction: column;
+	align-self: left;
+	width: 50%;
+	text-decoration: none;
+	border: solid 1px black;
+}
+
+code {
+	background-color: darkgray;
+	color: navy;
+}
+
+.main-section {
+	font-family: Courier;
+	color: teal;
+}
+
+.navbar {
+	display: flex;
+	flex-direction: column;
+}
+.main-doc {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+	body {
+		background-color: lightblue;
+	}
 }
